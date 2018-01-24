@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="obstacle_avoidance" type="laser_subscriber" name="laser_subscriber"  output="screen">
+    </node>
+</launch>
